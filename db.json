@@ -1,14 +1,42 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "meetings": [
+    {
+      "id": 1,
+      "title": "Q3 Team Meeting",
+      "date": "September 15, 2023",
+      "status": "Generated"
+    },
+    {
+      "id": 2,
+      "title": "All Hands Meeting",
+      "date": "August 30, 2023",
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "title": "Product Roadmap",
+      "date": "July 20, 2023",
+      "status": "Failed"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "attendees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "meetingId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "meetingId": 1
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "meetingId": 2
+    }
   ],
-  "profile": {
-    "name": "typicode"
+  "organizer": {
+    "name": "Meeting Organizer"
   }
 }
